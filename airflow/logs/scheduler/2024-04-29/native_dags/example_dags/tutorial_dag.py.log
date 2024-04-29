@@ -1,0 +1,11 @@
+[2024-04-29T16:43:59.287+0100] {processor.py:161} INFO - Started process (PID=61633) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-29T16:43:59.287+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-29T16:43:59.289+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:59.288+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-29T16:43:59.293+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-29T16:43:59.384+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:59.384+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2024-04-29T16:43:59.395+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:59.394+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2024-04-29T16:43:59.403+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:59.403+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2024-04-29T16:43:59.404+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:59.403+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:43:59.415+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:59.415+0100] {dag.py:3118} INFO - Creating ORM DAG for tutorial_dag
+[2024-04-29T16:43:59.416+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:59.416+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-29T16:43:59.444+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.163 seconds

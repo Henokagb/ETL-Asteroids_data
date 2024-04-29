@@ -1,0 +1,11 @@
+[2024-04-29T16:44:06.651+0100] {processor.py:161} INFO - Started process (PID=61672) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-04-29T16:44:06.652+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-04-29T16:44:06.656+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:06.655+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-04-29T16:44:06.679+0100] {processor.py:840} INFO - DAG(s) 'example_branch_operator' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-04-29T16:44:06.801+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:06.800+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:example_branch_operator
+[2024-04-29T16:44:06.820+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:06.820+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_branch_operator
+[2024-04-29T16:44:06.830+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:06.830+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_branch_operator
+[2024-04-29T16:44:06.830+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:06.830+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:44:06.843+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:06.843+0100] {dag.py:3118} INFO - Creating ORM DAG for example_branch_operator
+[2024-04-29T16:44:06.856+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:06.856+0100] {dag.py:3954} INFO - Setting next_dagrun for example_branch_operator to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T16:44:06.892+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.251 seconds

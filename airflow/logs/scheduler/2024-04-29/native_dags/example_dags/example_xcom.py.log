@@ -1,0 +1,11 @@
+[2024-04-29T16:43:46.429+0100] {processor.py:161} INFO - Started process (PID=61545) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2024-04-29T16:43:46.430+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-04-29T16:43:46.431+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:46.431+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2024-04-29T16:43:46.438+0100] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2024-04-29T16:43:46.534+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:46.533+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:example_xcom
+[2024-04-29T16:43:46.547+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:46.546+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_xcom
+[2024-04-29T16:43:46.554+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:46.554+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_xcom
+[2024-04-29T16:43:46.555+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:46.554+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:43:46.564+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:46.563+0100] {dag.py:3118} INFO - Creating ORM DAG for example_xcom
+[2024-04-29T16:43:46.571+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:46.570+0100] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-04-29T16:43:46.593+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.168 seconds

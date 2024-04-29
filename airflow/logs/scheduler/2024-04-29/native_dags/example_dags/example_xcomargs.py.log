@@ -1,0 +1,16 @@
+[2024-04-29T16:43:55.285+0100] {processor.py:161} INFO - Started process (PID=61616) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-29T16:43:55.287+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-29T16:43:55.289+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:55.289+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-29T16:43:55.301+0100] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-29T16:43:55.389+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:55.389+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2024-04-29T16:43:55.400+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:55.400+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2024-04-29T16:43:55.408+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:55.408+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2024-04-29T16:43:55.426+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:55.425+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2024-04-29T16:43:55.434+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:55.433+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2024-04-29T16:43:55.441+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:55.441+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2024-04-29T16:43:55.442+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:55.441+0100] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-29T16:43:55.451+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:55.451+0100] {dag.py:3118} INFO - Creating ORM DAG for example_xcom_args
+[2024-04-29T16:43:55.451+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:55.451+0100] {dag.py:3118} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2024-04-29T16:43:55.452+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:55.452+0100] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-29T16:43:55.453+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:55.453+0100] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-29T16:43:55.480+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 0.205 seconds

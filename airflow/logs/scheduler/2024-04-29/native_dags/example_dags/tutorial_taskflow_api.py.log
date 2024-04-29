@@ -1,0 +1,11 @@
+[2024-04-29T16:43:56.686+0100] {processor.py:161} INFO - Started process (PID=61624) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-04-29T16:43:56.687+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-04-29T16:43:56.690+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:56.689+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-04-29T16:43:56.700+0100] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-04-29T16:43:56.841+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:56.840+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api
+[2024-04-29T16:43:56.860+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:56.859+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api
+[2024-04-29T16:43:56.872+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:56.871+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api
+[2024-04-29T16:43:56.873+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:56.872+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:43:56.886+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:56.886+0100] {dag.py:3118} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2024-04-29T16:43:56.887+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:56.886+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-04-29T16:43:56.912+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.236 seconds

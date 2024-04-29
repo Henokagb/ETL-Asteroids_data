@@ -1,0 +1,11 @@
+[2024-04-29T16:44:07.222+0100] {processor.py:161} INFO - Started process (PID=61677) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-29T16:44:07.223+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-29T16:44:07.225+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:07.225+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-29T16:44:07.235+0100] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-29T16:44:07.325+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:07.324+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2024-04-29T16:44:07.335+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:07.335+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2024-04-29T16:44:07.342+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:07.342+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2024-04-29T16:44:07.343+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:07.343+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:44:07.353+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:07.353+0100] {dag.py:3118} INFO - Creating ORM DAG for example_skip_dag
+[2024-04-29T16:44:07.360+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:07.360+0100] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T16:44:07.388+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.176 seconds

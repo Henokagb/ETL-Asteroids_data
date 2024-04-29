@@ -1,0 +1,11 @@
+[2024-04-29T16:43:56.394+0100] {processor.py:161} INFO - Started process (PID=61623) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-04-29T16:43:56.395+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-04-29T16:43:56.397+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:56.397+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-04-29T16:43:56.406+0100] {processor.py:840} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-04-29T16:43:56.493+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:56.492+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:example_trigger_target_dag
+[2024-04-29T16:43:56.508+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:56.507+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_trigger_target_dag
+[2024-04-29T16:43:56.519+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:56.518+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_trigger_target_dag
+[2024-04-29T16:43:56.519+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:56.519+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:43:56.533+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:56.533+0100] {dag.py:3118} INFO - Creating ORM DAG for example_trigger_target_dag
+[2024-04-29T16:43:56.533+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:56.533+0100] {dag.py:3954} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-04-29T16:43:56.560+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.176 seconds

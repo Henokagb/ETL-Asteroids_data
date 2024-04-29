@@ -1,0 +1,11 @@
+[2024-04-29T16:44:20.390+0100] {processor.py:161} INFO - Started process (PID=61743) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2024-04-29T16:44:20.392+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-04-29T16:44:20.395+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:20.394+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2024-04-29T16:44:20.408+0100] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2024-04-29T16:44:20.494+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:20.494+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:example_python_operator
+[2024-04-29T16:44:20.504+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:20.504+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2024-04-29T16:44:20.512+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:20.512+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2024-04-29T16:44:20.512+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:20.512+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:44:20.522+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:20.521+0100] {dag.py:3118} INFO - Creating ORM DAG for example_python_operator
+[2024-04-29T16:44:20.522+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:20.522+0100] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-04-29T16:44:20.546+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.169 seconds

@@ -1,0 +1,18 @@
+[2024-04-29T16:43:48.965+0100] {processor.py:161} INFO - Started process (PID=61570) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-04-29T16:43:48.966+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-04-29T16:43:48.968+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:48.968+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-04-29T16:43:48.985+0100] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-04-29T16:43:49.071+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:49.071+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:example_subdag_operator
+[2024-04-29T16:43:49.082+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:49.082+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_subdag_operator
+[2024-04-29T16:43:49.090+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:49.090+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_subdag_operator
+[2024-04-29T16:43:49.090+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:49.090+0100] {dag.py:3096} INFO - Sync 3 DAGs
+[2024-04-29T16:43:49.099+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:49.099+0100] {dag.py:3118} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2024-04-29T16:43:49.099+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:49.099+0100] {dag.py:3118} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2024-04-29T16:43:49.100+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:49.100+0100] {dag.py:3118} INFO - Creating ORM DAG for example_subdag_operator
+[2024-04-29T16:43:49.107+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:49.106+0100] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-04-29T16:43:49.107+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:49.107+0100] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-04-29T16:43:49.107+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:49.107+0100] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-04-29T16:43:49.113+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:49.113+0100] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-29T16:43:49.117+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:49.117+0100] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-04-29T16:43:49.119+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:49.119+0100] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-04-29T16:43:49.142+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.183 seconds

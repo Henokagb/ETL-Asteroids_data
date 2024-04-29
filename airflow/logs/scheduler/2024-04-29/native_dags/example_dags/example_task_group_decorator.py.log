@@ -1,0 +1,11 @@
+[2024-04-29T16:43:50.223+0100] {processor.py:161} INFO - Started process (PID=61586) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-04-29T16:43:50.224+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2024-04-29T16:43:50.227+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:50.226+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-04-29T16:43:50.246+0100] {processor.py:840} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-04-29T16:43:50.347+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:50.346+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:example_task_group_decorator
+[2024-04-29T16:43:50.359+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:50.358+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_task_group_decorator
+[2024-04-29T16:43:50.367+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:50.366+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_task_group_decorator
+[2024-04-29T16:43:50.367+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:50.367+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:43:50.379+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:50.379+0100] {dag.py:3118} INFO - Creating ORM DAG for example_task_group_decorator
+[2024-04-29T16:43:50.389+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:50.388+0100] {dag.py:3954} INFO - Setting next_dagrun for example_task_group_decorator to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T16:43:50.415+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.202 seconds

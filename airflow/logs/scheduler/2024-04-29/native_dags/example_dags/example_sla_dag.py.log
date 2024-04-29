@@ -1,0 +1,11 @@
+[2024-04-29T16:44:14.918+0100] {processor.py:161} INFO - Started process (PID=61716) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-04-29T16:44:14.919+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-04-29T16:44:14.921+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:14.920+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-04-29T16:44:14.929+0100] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-04-29T16:44:15.026+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:15.026+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2024-04-29T16:44:15.039+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:15.038+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2024-04-29T16:44:15.050+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:15.049+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2024-04-29T16:44:15.050+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:15.050+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:44:15.061+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:15.060+0100] {dag.py:3118} INFO - Creating ORM DAG for example_sla_dag
+[2024-04-29T16:44:15.073+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:15.072+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2024-04-29 15:42:00+00:00, run_after=2024-04-29 15:44:00+00:00
+[2024-04-29T16:44:15.106+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.199 seconds

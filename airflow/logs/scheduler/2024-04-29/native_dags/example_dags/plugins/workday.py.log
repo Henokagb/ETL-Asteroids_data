@@ -1,0 +1,6 @@
+[2024-04-29T16:44:04.387+0100] {processor.py:161} INFO - Started process (PID=61655) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-04-29T16:44:04.388+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-04-29T16:44:04.390+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:04.389+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-04-29T16:44:04.392+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:04.392+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-04-29T16:44:04.393+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-04-29T16:44:04.402+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.021 seconds

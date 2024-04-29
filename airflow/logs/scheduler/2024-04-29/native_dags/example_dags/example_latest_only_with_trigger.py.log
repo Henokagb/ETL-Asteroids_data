@@ -1,0 +1,11 @@
+[2024-04-29T16:44:22.863+0100] {processor.py:161} INFO - Started process (PID=61933) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-04-29T16:44:22.864+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-04-29T16:44:22.867+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:22.866+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-04-29T16:44:22.876+0100] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-04-29T16:44:22.964+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:22.964+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:latest_only_with_trigger
+[2024-04-29T16:44:22.975+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:22.975+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:latest_only_with_trigger
+[2024-04-29T16:44:22.983+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:22.982+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:latest_only_with_trigger
+[2024-04-29T16:44:22.983+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:22.983+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:44:22.995+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:22.995+0100] {dag.py:3118} INFO - Creating ORM DAG for latest_only_with_trigger
+[2024-04-29T16:44:23.003+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:23.003+0100] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-04-29 08:00:00+00:00, run_after=2024-04-29 12:00:00+00:00
+[2024-04-29T16:44:23.026+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.173 seconds

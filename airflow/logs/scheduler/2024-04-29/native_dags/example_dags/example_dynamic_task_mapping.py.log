@@ -1,0 +1,11 @@
+[2024-04-29T16:44:21.614+0100] {processor.py:161} INFO - Started process (PID=61752) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-04-29T16:44:21.615+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-04-29T16:44:21.616+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:21.616+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-04-29T16:44:21.622+0100] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-04-29T16:44:21.706+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:21.705+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:example_dynamic_task_mapping
+[2024-04-29T16:44:21.716+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:21.716+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_dynamic_task_mapping
+[2024-04-29T16:44:21.726+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:21.726+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_dynamic_task_mapping
+[2024-04-29T16:44:21.727+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:21.726+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:44:21.739+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:21.738+0100] {dag.py:3118} INFO - Creating ORM DAG for example_dynamic_task_mapping
+[2024-04-29T16:44:21.746+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:21.746+0100] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-04-29T16:44:21.770+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.161 seconds

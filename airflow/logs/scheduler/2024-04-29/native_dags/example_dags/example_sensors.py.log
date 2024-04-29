@@ -1,0 +1,11 @@
+[2024-04-29T16:44:25.643+0100] {processor.py:161} INFO - Started process (PID=61943) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-29T16:44:25.644+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-29T16:44:25.647+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:25.646+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-29T16:44:25.661+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-29T16:44:25.756+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:25.755+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:example_sensors
+[2024-04-29T16:44:25.766+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:25.766+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_sensors
+[2024-04-29T16:44:25.774+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:25.774+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_sensors
+[2024-04-29T16:44:25.775+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:25.774+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:44:25.783+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:25.783+0100] {dag.py:3118} INFO - Creating ORM DAG for example_sensors
+[2024-04-29T16:44:25.784+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:44:25.784+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-29T16:44:25.807+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.175 seconds

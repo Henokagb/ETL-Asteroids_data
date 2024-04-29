@@ -1,0 +1,11 @@
+[2024-04-29T16:43:52.688+0100] {processor.py:161} INFO - Started process (PID=61607) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-04-29T16:43:52.690+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2024-04-29T16:43:52.692+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:52.691+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-04-29T16:43:52.704+0100] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-04-29T16:43:52.793+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:52.792+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api_virtualenv
+[2024-04-29T16:43:52.804+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:52.803+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api_virtualenv
+[2024-04-29T16:43:52.811+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:52.811+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api_virtualenv
+[2024-04-29T16:43:52.812+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:52.811+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:43:52.821+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:52.821+0100] {dag.py:3118} INFO - Creating ORM DAG for tutorial_taskflow_api_virtualenv
+[2024-04-29T16:43:52.822+0100] {logging_mixin.py:188} INFO - [2024-04-29T16:43:52.822+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2024-04-29T16:43:52.851+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.171 seconds

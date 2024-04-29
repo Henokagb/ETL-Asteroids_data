@@ -1,0 +1,46 @@
+2024-04-29 16:43:46,302 INFO - Task context logging is enabled
+2024-04-29 16:43:46,304 INFO - Loaded executor: SequentialExecutor
+2024-04-29 16:43:46,332 INFO - Starting the scheduler
+2024-04-29 16:43:46,333 INFO - Processing each file at most -1 times
+2024-04-29 16:43:46,338 INFO - Launched DagFileProcessorManager with pid: 61544
+2024-04-29 16:43:46,339 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-04-29 16:43:46,342 INFO - Configured default timezone UTC
+2024-04-29 16:44:33,904 INFO - Exiting gracefully upon receiving signal 15
+2024-04-29 16:44:34,917 INFO - Sending Signals.SIGTERM to group 61544. PIDs of all processes in the group: [61544]
+2024-04-29 16:44:34,918 INFO - Sending the signal Signals.SIGTERM to group 61544
+2024-04-29 16:44:35,091 INFO - Process psutil.Process(pid=61544, status='terminated', exitcode=0, started='16:43:46') (61544) terminated with exit code 0
+2024-04-29 16:44:35,112 INFO - Sending Signals.SIGTERM to group 61544. PIDs of all processes in the group: []
+2024-04-29 16:44:35,113 INFO - Sending the signal Signals.SIGTERM to group 61544
+2024-04-29 16:44:35,113 INFO - Sending the signal Signals.SIGTERM to process 61544 as process group is missing.
+2024-04-29 16:44:35,113 INFO - Exited execute loop
+2024-04-29 16:47:31,892 INFO - Task context logging is enabled
+2024-04-29 16:47:31,894 INFO - Loaded executor: SequentialExecutor
+2024-04-29 16:47:31,927 INFO - Starting the scheduler
+2024-04-29 16:47:31,928 INFO - Processing each file at most -1 times
+2024-04-29 16:47:31,932 INFO - Launched DagFileProcessorManager with pid: 63157
+2024-04-29 16:47:31,934 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-04-29 16:47:31,936 INFO - Configured default timezone UTC
+2024-04-29 16:52:32,038 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-04-29 16:56:54,018 INFO - Exiting gracefully upon receiving signal 15
+2024-04-29 16:56:55,029 INFO - Sending Signals.SIGTERM to group 63157. PIDs of all processes in the group: [63157]
+2024-04-29 16:56:55,035 INFO - Sending the signal Signals.SIGTERM to group 63157
+2024-04-29 16:56:55,171 INFO - Process psutil.Process(pid=63157, status='terminated', exitcode=0, started='16:47:31') (63157) terminated with exit code 0
+2024-04-29 16:56:55,186 INFO - Sending Signals.SIGTERM to group 63157. PIDs of all processes in the group: []
+2024-04-29 16:56:55,186 INFO - Sending the signal Signals.SIGTERM to group 63157
+2024-04-29 16:56:55,186 INFO - Sending the signal Signals.SIGTERM to process 63157 as process group is missing.
+2024-04-29 16:56:55,187 INFO - Exited execute loop
+2024-04-29 16:56:59,396 INFO - Task context logging is enabled
+2024-04-29 16:56:59,397 INFO - Loaded executor: SequentialExecutor
+2024-04-29 16:56:59,425 INFO - Starting the scheduler
+2024-04-29 16:56:59,426 INFO - Processing each file at most -1 times
+2024-04-29 16:56:59,430 INFO - Launched DagFileProcessorManager with pid: 65481
+2024-04-29 16:56:59,432 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-04-29 16:56:59,435 INFO - Configured default timezone UTC
+2024-04-29 16:58:04,486 INFO - Exiting gracefully upon receiving signal 15
+2024-04-29 16:58:05,497 INFO - Sending Signals.SIGTERM to group 65481. PIDs of all processes in the group: [65481]
+2024-04-29 16:58:05,497 INFO - Sending the signal Signals.SIGTERM to group 65481
+2024-04-29 16:58:05,631 INFO - Process psutil.Process(pid=65481, status='terminated', exitcode=0, started='16:56:59') (65481) terminated with exit code 0
+2024-04-29 16:58:05,642 INFO - Sending Signals.SIGTERM to group 65481. PIDs of all processes in the group: []
+2024-04-29 16:58:05,642 INFO - Sending the signal Signals.SIGTERM to group 65481
+2024-04-29 16:58:05,643 INFO - Sending the signal Signals.SIGTERM to process 65481 as process group is missing.
+2024-04-29 16:58:05,643 INFO - Exited execute loop
