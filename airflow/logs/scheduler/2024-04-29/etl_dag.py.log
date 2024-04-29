@@ -1,0 +1,932 @@
+[2024-04-29T21:32:26.832+0100] {processor.py:161} INFO - Started process (PID=145329) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:32:26.833+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:32:26.835+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:32:26.834+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:32:27.445+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:32:27.442+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 85, in <module>
+    with DAG(
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dag.py", line 519, in __init__
+    validate_key(dag_id)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'ETL on NASA Asteroids data' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-04-29T21:32:27.446+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:32:27.458+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.634 seconds
+[2024-04-29T21:32:58.058+0100] {processor.py:161} INFO - Started process (PID=145473) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:32:58.060+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:32:58.062+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:32:58.062+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:32:58.491+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:32:58.485+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 85, in <module>
+    with DAG(
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dag.py", line 519, in __init__
+    validate_key(dag_id)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'ETL on NASA Asteroids data' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-04-29T21:32:58.491+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:32:58.506+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.457 seconds
+[2024-04-29T21:33:29.421+0100] {processor.py:161} INFO - Started process (PID=145580) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:29.423+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:33:29.427+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:33:29.427+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:29.817+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:33:29.815+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 85, in <module>
+    with DAG(
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dag.py", line 519, in __init__
+    validate_key(dag_id)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'ETL on NASA Asteroids data' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-04-29T21:33:29.817+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:29.829+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.418 seconds
+[2024-04-29T21:33:41.597+0100] {processor.py:161} INFO - Started process (PID=145632) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:41.598+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:33:41.600+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:33:41.599+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:42.191+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:33:42.181+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 85, in <module>
+    with DAG(
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dag.py", line 519, in __init__
+    validate_key(dag_id)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'ETL of NASA Asteroids data' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-04-29T21:33:42.192+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:42.233+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.642 seconds
+[2024-04-29T21:33:44.605+0100] {processor.py:161} INFO - Started process (PID=145658) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:44.606+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:33:44.607+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:33:44.607+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:45.058+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:33:45.057+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 85, in <module>
+    with DAG(
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dag.py", line 519, in __init__
+    validate_key(dag_id)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'ETL_of_NASA Asteroids data' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-04-29T21:33:45.058+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:45.071+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.471 seconds
+[2024-04-29T21:33:46.173+0100] {processor.py:161} INFO - Started process (PID=145675) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:46.174+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:33:46.176+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:33:46.175+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:46.691+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:33:46.689+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 85, in <module>
+    with DAG(
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dag.py", line 519, in __init__
+    validate_key(dag_id)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'ETL_of_NASA _Asteroids data' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-04-29T21:33:46.692+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:46.710+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.558 seconds
+[2024-04-29T21:33:48.643+0100] {processor.py:161} INFO - Started process (PID=145689) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:48.646+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:33:48.651+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:33:48.650+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:49.282+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:33:49.280+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 85, in <module>
+    with DAG(
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dag.py", line 519, in __init__
+    validate_key(dag_id)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'ETL_NASA_Asteroids data' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-04-29T21:33:49.282+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:49.299+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.679 seconds
+[2024-04-29T21:33:51.435+0100] {processor.py:161} INFO - Started process (PID=145706) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:51.436+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:33:51.438+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:33:51.438+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:54.107+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:33:54.102+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 100, in <module>
+    task1 = PythonOperator(
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 892, in __init__
+    validate_key(task_id)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Extract data from API' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-04-29T21:33:54.108+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:33:54.126+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 2.702 seconds
+[2024-04-29T21:34:20.453+0100] {processor.py:161} INFO - Started process (PID=145812) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:34:20.458+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:34:20.461+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:34:20.460+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:34:22.317+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:34:22.314+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 100, in <module>
+    task1 = PythonOperator(
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/operators/python.py", line 222, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-04-29T21:34:22.317+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:34:22.331+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 1.890 seconds
+[2024-04-29T21:34:25.486+0100] {processor.py:161} INFO - Started process (PID=145839) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:34:25.488+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:34:25.489+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:34:25.489+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:34:27.308+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:34:27.307+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 100, in <module>
+    task1 = PythonOperator(
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/operators/python.py", line 222, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-04-29T21:34:27.309+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:34:27.325+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 1.847 seconds
+[2024-04-29T21:34:29.490+0100] {processor.py:161} INFO - Started process (PID=145860) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:34:29.491+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:34:29.493+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:34:29.492+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:34:31.282+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:34:31.281+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 100, in <module>
+    task1 = PythonOperator(
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/operators/python.py", line 222, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-04-29T21:34:31.282+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:34:31.316+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 1.835 seconds
+[2024-04-29T21:35:01.725+0100] {processor.py:161} INFO - Started process (PID=145983) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:35:01.726+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:35:01.728+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:35:01.727+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:35:03.852+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:35:03.851+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 100, in <module>
+    task1 = PythonOperator(
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/operators/python.py", line 222, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-04-29T21:35:03.853+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:35:03.868+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 2.154 seconds
+[2024-04-29T21:35:34.272+0100] {processor.py:161} INFO - Started process (PID=146108) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:35:34.274+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:35:34.276+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:35:34.275+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:35:36.114+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:35:36.110+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 100, in <module>
+    task1 = PythonOperator(
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/operators/python.py", line 222, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-04-29T21:35:36.115+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:35:36.132+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 1.868 seconds
+[2024-04-29T21:36:06.715+0100] {processor.py:161} INFO - Started process (PID=146311) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:36:06.716+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:36:06.717+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:36:06.717+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:36:07.095+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:36:07.182+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:36:07.181+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:ETL_NASA_Asteroids_data
+[2024-04-29T21:36:07.195+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:36:07.194+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:ETL_NASA_Asteroids_data
+[2024-04-29T21:36:07.203+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:36:07.202+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:ETL_NASA_Asteroids_data
+[2024-04-29T21:36:07.203+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:36:07.203+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:36:07.214+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:36:07.213+0100] {dag.py:3118} INFO - Creating ORM DAG for ETL_NASA_Asteroids_data
+[2024-04-29T21:36:07.221+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:36:07.220+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-30 00:00:00+00:00, run_after=2024-05-17 00:00:00+00:00
+[2024-04-29T21:36:07.246+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.534 seconds
+[2024-04-29T21:36:37.989+0100] {processor.py:161} INFO - Started process (PID=146491) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:36:37.990+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:36:37.992+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:36:37.992+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:36:38.450+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:36:38.469+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:36:38.469+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:36:38.487+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:36:38.486+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-30 00:00:00+00:00, run_after=2024-05-17 00:00:00+00:00
+[2024-04-29T21:36:38.507+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.528 seconds
+[2024-04-29T21:37:09.364+0100] {processor.py:161} INFO - Started process (PID=146713) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:37:09.365+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:37:09.367+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:37:09.366+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:37:09.730+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:37:09.744+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:37:09.743+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:37:09.761+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:37:09.761+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-30 00:00:00+00:00, run_after=2024-05-17 00:00:00+00:00
+[2024-04-29T21:37:09.780+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.424 seconds
+[2024-04-29T21:37:34.608+0100] {processor.py:161} INFO - Started process (PID=146946) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:37:34.609+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:37:34.610+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:37:34.610+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:37:35.058+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:37:35.076+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:37:35.075+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:37:35.091+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:37:35.091+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-30 00:00:00+00:00, run_after=2024-05-17 00:00:00+00:00
+[2024-04-29T21:37:35.112+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.511 seconds
+[2024-04-29T21:38:05.892+0100] {processor.py:161} INFO - Started process (PID=147096) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:38:05.893+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:38:05.895+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:38:05.895+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:38:06.337+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:38:06.351+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:38:06.351+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:38:06.366+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:38:06.365+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-30 00:00:00+00:00, run_after=2024-05-17 00:00:00+00:00
+[2024-04-29T21:38:06.382+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.500 seconds
+[2024-04-29T21:38:37.258+0100] {processor.py:161} INFO - Started process (PID=147233) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:38:37.259+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:38:37.260+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:38:37.260+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:38:37.684+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:38:37.707+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:38:37.706+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:38:37.742+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:38:37.741+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-30 00:00:00+00:00, run_after=2024-05-17 00:00:00+00:00
+[2024-04-29T21:38:37.771+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.517 seconds
+[2024-04-29T21:39:08.713+0100] {processor.py:161} INFO - Started process (PID=147387) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:39:08.714+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:39:08.715+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:39:08.715+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:39:09.125+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:39:09.140+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:39:09.139+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:39:09.157+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:39:09.157+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-30 00:00:00+00:00, run_after=2024-05-17 00:00:00+00:00
+[2024-04-29T21:39:09.179+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.472 seconds
+[2024-04-29T21:39:40.048+0100] {processor.py:161} INFO - Started process (PID=147523) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:39:40.049+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:39:40.050+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:39:40.050+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:39:40.449+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:39:40.463+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:39:40.463+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:39:40.483+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:39:40.483+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-30 00:00:00+00:00, run_after=2024-05-17 00:00:00+00:00
+[2024-04-29T21:39:40.502+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.459 seconds
+[2024-04-29T21:40:11.277+0100] {processor.py:161} INFO - Started process (PID=147655) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:40:11.278+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:40:11.281+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:40:11.280+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:40:11.808+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:40:11.832+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:40:11.831+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:40:11.848+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:40:11.848+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-30 00:00:00+00:00, run_after=2024-05-17 00:00:00+00:00
+[2024-04-29T21:40:11.870+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.602 seconds
+[2024-04-29T21:40:42.300+0100] {processor.py:161} INFO - Started process (PID=147808) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:40:42.301+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:40:42.303+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:40:42.302+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:40:42.958+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:40:42.978+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:40:42.977+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:40:43.000+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:40:43.000+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-30 00:00:00+00:00, run_after=2024-05-17 00:00:00+00:00
+[2024-04-29T21:40:43.025+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.732 seconds
+[2024-04-29T21:41:13.433+0100] {processor.py:161} INFO - Started process (PID=147944) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:41:13.434+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:41:13.436+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:41:13.435+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:41:14.193+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:41:14.216+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:41:14.215+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:41:14.235+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:41:14.234+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-30 00:00:00+00:00, run_after=2024-05-17 00:00:00+00:00
+[2024-04-29T21:41:14.258+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.831 seconds
+[2024-04-29T21:41:44.708+0100] {processor.py:161} INFO - Started process (PID=148054) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:41:44.709+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:41:44.711+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:41:44.710+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:41:45.125+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:41:45.141+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:41:45.141+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:41:45.159+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:41:45.158+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-30 00:00:00+00:00, run_after=2024-05-17 00:00:00+00:00
+[2024-04-29T21:41:45.181+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.481 seconds
+[2024-04-29T21:42:15.526+0100] {processor.py:161} INFO - Started process (PID=148169) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:42:15.527+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:42:15.529+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:42:15.529+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:42:15.954+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:42:15.972+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:42:15.972+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:42:15.989+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:42:15.989+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-30 00:00:00+00:00, run_after=2024-05-17 00:00:00+00:00
+[2024-04-29T21:42:16.008+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.489 seconds
+[2024-04-29T21:42:31.187+0100] {processor.py:161} INFO - Started process (PID=148229) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:42:31.188+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:42:31.189+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:42:31.188+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:42:31.667+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:42:31.839+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:42:31.838+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:42:31.858+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:42:31.857+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-30 00:00:00+00:00, run_after=2024-05-07 00:00:00+00:00
+[2024-04-29T21:42:31.880+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.698 seconds
+[2024-04-29T21:42:43.047+0100] {processor.py:161} INFO - Started process (PID=148276) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:42:43.048+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:42:43.049+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:42:43.049+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:42:43.548+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:42:43.552+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:42:43.552+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:42:43.568+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:42:43.568+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:42:43.587+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.544 seconds
+[2024-04-29T21:43:14.455+0100] {processor.py:161} INFO - Started process (PID=148392) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:43:14.457+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:43:14.459+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:43:14.458+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:43:14.977+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:43:15.168+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:43:15.168+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:43:15.189+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:43:15.189+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:43:15.210+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.763 seconds
+[2024-04-29T21:43:51.573+0100] {processor.py:161} INFO - Started process (PID=148598) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:43:51.574+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:43:51.576+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:43:51.575+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:43:52.121+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:43:52.144+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:43:52.143+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:43:52.165+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:43:52.164+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:43:52.188+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.620 seconds
+[2024-04-29T21:44:22.738+0100] {processor.py:161} INFO - Started process (PID=148774) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:44:22.739+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:44:22.742+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:44:22.741+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:44:23.106+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:44:23.120+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:44:23.120+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:44:23.135+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:44:23.134+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:44:23.152+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.424 seconds
+[2024-04-29T21:45:17.103+0100] {processor.py:161} INFO - Started process (PID=149220) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:45:17.104+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:45:17.105+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:45:17.105+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:45:17.516+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:45:17.532+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:45:17.532+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:45:17.548+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:45:17.548+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:45:17.571+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.473 seconds
+[2024-04-29T21:45:47.991+0100] {processor.py:161} INFO - Started process (PID=149393) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:45:47.992+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:45:47.993+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:45:47.993+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:45:48.417+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:45:48.448+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:45:48.447+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:45:48.471+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:45:48.471+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:45:48.497+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.512 seconds
+[2024-04-29T21:46:19.425+0100] {processor.py:161} INFO - Started process (PID=149507) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:46:19.427+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:46:19.429+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:46:19.428+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:46:19.828+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:46:19.845+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:46:19.844+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:46:19.861+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:46:19.861+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:46:19.880+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.465 seconds
+[2024-04-29T21:46:51.038+0100] {processor.py:161} INFO - Started process (PID=149624) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:46:51.039+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:46:51.040+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:46:51.040+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:46:51.456+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:46:51.492+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:46:51.492+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:46:51.512+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:46:51.512+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:46:51.532+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.499 seconds
+[2024-04-29T21:47:22.382+0100] {processor.py:161} INFO - Started process (PID=149823) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:47:22.383+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:47:22.386+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:47:22.385+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:47:22.989+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:47:23.048+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:47:23.047+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:47:23.080+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:47:23.079+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:47:23.100+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.727 seconds
+[2024-04-29T21:47:55.086+0100] {processor.py:161} INFO - Started process (PID=149956) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:47:55.087+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:47:55.088+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:47:55.088+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:47:55.440+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:47:55.460+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:47:55.460+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:47:55.476+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:47:55.476+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:47:55.494+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.412 seconds
+[2024-04-29T21:48:26.458+0100] {processor.py:161} INFO - Started process (PID=150067) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:48:26.459+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:48:26.462+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:48:26.462+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:48:26.890+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:48:26.904+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:48:26.904+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:48:26.918+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:48:26.917+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:48:26.936+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.488 seconds
+[2024-04-29T21:48:58.705+0100] {processor.py:161} INFO - Started process (PID=150196) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:48:58.706+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:48:58.707+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:48:58.706+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:48:59.158+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:48:59.176+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:48:59.176+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:48:59.195+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:48:59.195+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:48:59.214+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.514 seconds
+[2024-04-29T21:49:02.444+0100] {processor.py:161} INFO - Started process (PID=150220) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:49:02.445+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:49:02.448+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:49:02.447+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:49:02.864+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:49:03.028+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:49:03.027+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:49:03.048+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:49:03.048+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:49:03.079+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.643 seconds
+[2024-04-29T21:49:33.235+0100] {processor.py:161} INFO - Started process (PID=150328) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:49:33.236+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:49:33.238+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:49:33.238+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:49:34.183+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:49:34.211+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:49:34.211+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:49:34.231+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:49:34.230+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:49:34.253+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 1.022 seconds
+[2024-04-29T21:50:04.684+0100] {processor.py:161} INFO - Started process (PID=150447) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:50:04.685+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:50:04.687+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:50:04.687+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:50:05.106+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:50:05.121+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:50:05.121+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:50:05.136+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:50:05.136+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:50:05.153+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.479 seconds
+[2024-04-29T21:50:09.036+0100] {processor.py:161} INFO - Started process (PID=150469) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:50:09.036+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:50:09.038+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:50:09.037+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:50:09.396+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:50:09.401+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.369 seconds
+[2024-04-29T21:50:12.358+0100] {processor.py:161} INFO - Started process (PID=150482) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:50:12.359+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:50:12.360+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:50:12.360+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:50:12.786+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:50:12.783+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 85, in <module>
+    loa
+NameError: name 'loa' is not defined
+[2024-04-29T21:50:12.787+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:50:12.804+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.450 seconds
+[2024-04-29T21:50:13.880+0100] {processor.py:161} INFO - Started process (PID=150496) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:50:13.881+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:50:13.883+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:50:13.882+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:50:14.301+0100] {logging_mixin.py:188} INFO - {}
+[2024-04-29T21:50:14.325+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:50:14.322+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 85, in <module>
+    load_into_db()
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 83, in load_into_db
+    collection.insert_many(final_data_dict)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/pymongo/_csot.py", line 108, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/pymongo/collection.py", line 726, in insert_many
+    raise TypeError("documents must be a non-empty list")
+TypeError: documents must be a non-empty list
+[2024-04-29T21:50:14.326+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:50:14.342+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.469 seconds
+[2024-04-29T21:50:44.477+0100] {processor.py:161} INFO - Started process (PID=150703) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:50:44.478+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:50:44.480+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:50:44.480+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:50:44.972+0100] {logging_mixin.py:188} INFO - {}
+[2024-04-29T21:50:44.978+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:50:44.976+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 85, in <module>
+    load_into_db()
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 83, in load_into_db
+    collection.insert_many(final_data_dict)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/pymongo/_csot.py", line 108, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/pymongo/collection.py", line 726, in insert_many
+    raise TypeError("documents must be a non-empty list")
+TypeError: documents must be a non-empty list
+[2024-04-29T21:50:44.979+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:50:44.991+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.521 seconds
+[2024-04-29T21:51:09.731+0100] {processor.py:161} INFO - Started process (PID=150802) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:51:09.732+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:51:09.735+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:51:09.734+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:51:10.199+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:51:10.211+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.491 seconds
+[2024-04-29T21:51:17.022+0100] {processor.py:161} INFO - Started process (PID=150833) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:51:17.023+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:51:17.024+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:51:17.024+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:51:17.463+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:51:17.479+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:51:17.478+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:51:17.498+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:51:17.498+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:51:17.518+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.501 seconds
+[2024-04-29T21:51:48.426+0100] {processor.py:161} INFO - Started process (PID=150947) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:51:48.428+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:51:48.431+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:51:48.430+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:51:48.788+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:51:48.803+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:51:48.803+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:51:48.820+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:51:48.819+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:51:48.845+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.428 seconds
+[2024-04-29T21:52:11.583+0100] {processor.py:161} INFO - Started process (PID=151033) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:52:11.584+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:52:11.586+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:52:11.585+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:52:12.106+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:52:12.131+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:52:12.131+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:52:12.152+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:52:12.152+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:52:12.182+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.607 seconds
+[2024-04-29T21:52:42.661+0100] {processor.py:161} INFO - Started process (PID=151137) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:52:42.663+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:52:42.665+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:52:42.664+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:52:43.116+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:52:43.136+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:52:43.135+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:52:43.152+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:52:43.152+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:52:43.173+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.521 seconds
+[2024-04-29T21:52:49.361+0100] {processor.py:161} INFO - Started process (PID=151173) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:52:49.362+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:52:49.363+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:52:49.363+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:52:49.797+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:52:49.813+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:52:49.812+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:52:49.827+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:52:49.827+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:52:49.847+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.492 seconds
+[2024-04-29T21:52:58.409+0100] {processor.py:161} INFO - Started process (PID=151209) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:52:58.410+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:52:58.411+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:52:58.411+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:52:58.782+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:52:58.797+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:52:58.796+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:52:58.811+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:52:58.810+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:52:58.828+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.423 seconds
+[2024-04-29T21:53:00.526+0100] {processor.py:161} INFO - Started process (PID=151225) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:00.526+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:53:00.529+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:53:00.528+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:00.940+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:00.959+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:53:00.958+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:53:00.978+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:53:00.978+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:53:01.007+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.487 seconds
+[2024-04-29T21:53:28.399+0100] {processor.py:161} INFO - Started process (PID=151344) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:28.400+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:53:28.402+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:53:28.402+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:28.789+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:28.808+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:53:28.807+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:53:28.826+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:53:28.826+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:53:28.849+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.459 seconds
+[2024-04-29T21:53:38.505+0100] {processor.py:161} INFO - Started process (PID=151385) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:38.506+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:53:38.507+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:53:38.507+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:38.887+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:38.902+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:53:38.901+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:53:38.923+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:53:38.923+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:53:38.949+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.456 seconds
+[2024-04-29T21:53:45.495+0100] {processor.py:161} INFO - Started process (PID=151415) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:45.496+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:53:45.499+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:53:45.498+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:45.986+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:46.009+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:53:46.009+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:53:46.036+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:53:46.036+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:53:46.068+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.584 seconds
+[2024-04-29T21:53:47.252+0100] {processor.py:161} INFO - Started process (PID=151430) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:47.253+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:53:47.256+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:53:47.255+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:47.263+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:53:47.259+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 122
+    """
+with DAG(
+        "ETL_NASA_Asteroids_data",
+        default_args={
+        "depends_on_past": False,
+        "email": ["henokagb@gmail.com"],
+        "email_on_failure": False,
+        "email_on_retry": False,
+        "retries": 1,
+        "retry_delay": timedelta(minutes=1)
+    },
+    schedule=timedelta(days=7),
+    start_date=datetime(2024, 4, 29),
+    catchup=False
+) as dag:
+
+    task1 = PythonOperator(
+        task_id='Extract_data_from_API',
+        python_callable=extract_from_api,
+        dag=dag
+    )
+
+    task2 = PythonOperator(
+        task_id='Transform_and_clean_data',
+        python_callable=transform_data,
+        dag=dag
+    )
+
+    task3 = PythonOperator(
+        task_id='Load_into_db',
+        python_callable=load_into_db,
+        dag=dag
+    )
+
+    task1 >> task2 >> task3
+       
+         
+                                  
+                      
+                                 
+                                        
+                                  
+                                
+                     
+                                           
+      
+                               
+                                     
+                 
+         
+
+                           
+                                        
+                                         
+               
+     
+
+                           
+                                           
+                                       
+               
+     
+
+                           
+                               
+                                     
+               
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2024-04-29T21:53:47.264+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:47.291+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.049 seconds
+[2024-04-29T21:53:51.264+0100] {processor.py:161} INFO - Started process (PID=151448) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:51.265+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:53:51.267+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:53:51.266+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:51.271+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:53:51.270+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 122
+    """
+with DAG(
+        "ETL_NASA_Asteroids_data",
+        default_args={
+        "depends_on_past": False,
+        "email": ["henokagb@gmail.com"],
+        "email_on_failure": False,
+        "email_on_retry": False,
+        "retries": 1,
+        "retry_delay": timedelta(minutes=1)
+    },
+    schedule=timedelta(days=7),
+    start_date=datetime(2024, 4, 29),
+    catchup=False
+) as dag:
+
+    task1 = PythonOperator(
+        task_id='Extract_data_from_API',
+        python_callable=extract_from_api,
+        dag=dag
+    )
+
+    task2 = PythonOperator(
+        task_id='Transform_and_clean_data',
+        python_callable=transform_data,
+        dag=dag
+    )
+
+    task3 = PythonOperator(
+        task_id='Load_into_db',
+        python_callable=load_into_db,
+        dag=dag
+    )
+
+    task1 >> task2 >> task3
+       
+         
+                                  
+                      
+                                 
+                                        
+                                  
+                                
+                     
+                                           
+      
+                               
+                                     
+                 
+         
+
+                           
+                                        
+                                         
+               
+     
+
+                           
+                                           
+                                       
+               
+     
+
+                           
+                               
+                                     
+               
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2024-04-29T21:53:51.272+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:51.292+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.038 seconds
+[2024-04-29T21:53:53.482+0100] {processor.py:161} INFO - Started process (PID=151457) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:53.483+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:53:53.485+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:53:53.485+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:53.880+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:53:53.891+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.416 seconds
+[2024-04-29T21:54:11.468+0100] {processor.py:161} INFO - Started process (PID=151530) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:54:11.470+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:54:11.472+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:54:11.471+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:54:11.915+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:54:11.925+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.464 seconds
+[2024-04-29T21:54:15.804+0100] {processor.py:161} INFO - Started process (PID=151553) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:54:15.805+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:54:15.807+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:54:15.807+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:54:16.204+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:54:16.201+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 89, in <module>
+    load_into_db()
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 87, in load_into_db
+    collection.insert_many(data)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/pymongo/_csot.py", line 108, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/pymongo/collection.py", line 726, in insert_many
+    raise TypeError("documents must be a non-empty list")
+TypeError: documents must be a non-empty list
+[2024-04-29T21:54:16.205+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:54:16.222+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.429 seconds
+[2024-04-29T21:54:25.918+0100] {processor.py:161} INFO - Started process (PID=151609) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:54:25.920+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:54:25.923+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:54:25.922+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:54:26.474+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:54:26.474+0100] {logger.py:96} INFO - {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f3c2ac3fd30>", "operation": "insert", "operationId": -655300236, "topologyDescription": "<TopologyDescription id: 6630090262a21ff77591e70e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6630090262a21ff77591e70e"}, "remainingTimeMS": 29}
+[2024-04-29T21:54:26.509+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:54:26.520+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.613 seconds
+[2024-04-29T21:54:57.320+0100] {processor.py:161} INFO - Started process (PID=151763) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:54:57.321+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:54:57.322+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:54:57.322+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:54:57.606+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:54:57.605+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 89, in <module>
+    transform_data()
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 47, in transform_data
+    for key in data[date]:
+TypeError: list indices must be integers or slices, not dict
+[2024-04-29T21:54:57.606+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:54:57.620+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.305 seconds
+[2024-04-29T21:55:13.292+0100] {processor.py:161} INFO - Started process (PID=151826) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:55:13.293+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:55:13.294+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:55:13.294+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:55:13.656+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:55:13.656+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 89, in <module>
+    ex
+NameError: name 'ex' is not defined
+[2024-04-29T21:55:13.657+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:55:13.671+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.387 seconds
+[2024-04-29T21:55:17.069+0100] {processor.py:161} INFO - Started process (PID=151849) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:55:17.069+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:55:17.071+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:55:17.070+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:55:22.089+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:55:22.088+0100] {logger.py:96} INFO - {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f3c2abfc820>", "operation": "insert", "operationId": 1823741791, "topologyDescription": "<TopologyDescription id: 6630093a9fdc1f977fe8b692, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6630093a9fdc1f977fe8b692"}, "remainingTimeMS": 29}
+[2024-04-29T21:55:22.093+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:55:22.104+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 5.041 seconds
+[2024-04-29T21:55:52.559+0100] {processor.py:161} INFO - Started process (PID=152058) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:55:52.561+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:55:52.564+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:55:52.562+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:55:54.852+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:55:54.851+0100] {logger.py:96} INFO - {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f3c2abfcdc0>", "operation": "insert", "operationId": -1915552445, "topologyDescription": "<TopologyDescription id: 6630095af11258081673880e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6630095af11258081673880e"}, "remainingTimeMS": 29}
+[2024-04-29T21:55:54.855+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:55:54.861+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 2.314 seconds
+[2024-04-29T21:56:06.367+0100] {processor.py:161} INFO - Started process (PID=152124) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:56:06.368+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:56:06.369+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:56:06.369+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:56:06.373+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:56:06.372+0100] {dagbag.py:350} ERROR - Failed to import: /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/test_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py", line 127
+    """
+      ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2024-04-29T21:56:06.373+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:56:06.651+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.291 seconds
+[2024-04-29T21:56:11.511+0100] {processor.py:161} INFO - Started process (PID=152142) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:56:11.512+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:56:11.513+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:56:11.513+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:56:13.299+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:56:13.299+0100] {logger.py:96} INFO - {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f3c2abfedc0>", "operation": "insert", "operationId": -2135505960, "topologyDescription": "<TopologyDescription id: 6630096db8d32414cedc6e90, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6630096db8d32414cedc6e90"}, "remainingTimeMS": 29}
+[2024-04-29T21:56:13.407+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:56:13.675+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:56:13.674+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:56:13.694+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:56:13.694+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:56:13.902+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 2.402 seconds
+[2024-04-29T21:56:44.070+0100] {processor.py:161} INFO - Started process (PID=152270) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:56:44.080+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:56:44.082+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:56:44.081+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:56:46.882+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:56:46.881+0100] {logger.py:96} INFO - {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f3c2abf3e50>", "operation": "insert", "operationId": 221220968, "topologyDescription": "<TopologyDescription id: 6630098e63893f7f3905b108, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6630098e63893f7f3905b108"}, "remainingTimeMS": 29}
+[2024-04-29T21:56:46.895+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:56:47.242+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:56:47.241+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:56:47.251+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:56:47.250+0100] {dag.py:3118} INFO - Creating ORM DAG for ETL_NASA_Asteroids_data
+[2024-04-29T21:56:47.258+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:56:47.258+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:56:47.408+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 3.349 seconds
+[2024-04-29T21:57:17.615+0100] {processor.py:161} INFO - Started process (PID=152457) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:57:17.617+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:57:17.618+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:17.618+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:57:19.523+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:19.522+0100] {logger.py:96} INFO - {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f3c2abfde50>", "operation": "insert", "operationId": 1362029213, "topologyDescription": "<TopologyDescription id: 663009af50aebad16bce27d2, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "663009af50aebad16bce27d2"}, "remainingTimeMS": 29}
+[2024-04-29T21:57:19.533+0100] {processor.py:840} INFO - DAG(s) 'ETL_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:57:19.553+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:19.552+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:57:19.572+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:19.572+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:57:19.595+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 1.991 seconds
+[2024-04-29T21:57:40.949+0100] {processor.py:161} INFO - Started process (PID=152553) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:57:40.950+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:57:40.951+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:40.951+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:57:43.044+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:43.043+0100] {logger.py:96} INFO - {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f3c2abfedc0>", "operation": "insert", "operationId": 881392756, "topologyDescription": "<TopologyDescription id: 663009c7ef7a008408bd5828, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "663009c7ef7a008408bd5828"}, "remainingTimeMS": 29}
+[2024-04-29T21:57:43.052+0100] {processor.py:840} INFO - DAG(s) 'ETL_wiNASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:57:43.225+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:43.224+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:ETL_wiNASA_Asteroids_data
+[2024-04-29T21:57:43.241+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:43.241+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:ETL_wiNASA_Asteroids_data
+[2024-04-29T21:57:43.250+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:43.249+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:ETL_wiNASA_Asteroids_data
+[2024-04-29T21:57:43.252+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:43.251+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:57:43.269+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:43.268+0100] {dag.py:3118} INFO - Creating ORM DAG for ETL_wiNASA_Asteroids_data
+[2024-04-29T21:57:43.278+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:43.278+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_wiNASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:57:43.294+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 2.355 seconds
+[2024-04-29T21:57:46.000+0100] {processor.py:161} INFO - Started process (PID=152588) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:57:46.001+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:57:46.002+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:46.002+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:57:48.383+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:48.382+0100] {logger.py:96} INFO - {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f3c2abfedc0>", "operation": "insert", "operationId": 1902500597, "topologyDescription": "<TopologyDescription id: 663009cc4d22f98f383dff4f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "663009cc4d22f98f383dff4f"}, "remainingTimeMS": 29}
+[2024-04-29T21:57:48.391+0100] {processor.py:840} INFO - DAG(s) 'ETL_with_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:57:48.588+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:48.587+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:ETL_with_NASA_Asteroids_data
+[2024-04-29T21:57:48.601+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:48.600+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:ETL_with_NASA_Asteroids_data
+[2024-04-29T21:57:48.609+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:48.609+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:ETL_with_NASA_Asteroids_data
+[2024-04-29T21:57:48.609+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:48.609+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:57:48.619+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:48.619+0100] {dag.py:3118} INFO - Creating ORM DAG for ETL_with_NASA_Asteroids_data
+[2024-04-29T21:57:48.627+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:57:48.627+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_with_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:57:48.645+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 2.650 seconds
+[2024-04-29T21:58:02.225+0100] {processor.py:161} INFO - Started process (PID=152707) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:58:02.226+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:58:02.227+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:58:02.226+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:58:02.518+0100] {processor.py:840} INFO - DAG(s) 'ETL_with_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:58:02.523+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:58:02.523+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:58:02.538+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:58:02.538+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_with_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:58:02.556+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.340 seconds
+[2024-04-29T21:58:33.634+0100] {processor.py:161} INFO - Started process (PID=152833) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:58:33.636+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:58:33.637+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:58:33.637+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:58:34.080+0100] {processor.py:840} INFO - DAG(s) 'ETL_with_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:58:34.121+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:58:34.121+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:58:34.418+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:58:34.418+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_with_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:58:34.474+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.851 seconds
+[2024-04-29T21:58:44.387+0100] {processor.py:161} INFO - Started process (PID=152946) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:58:44.388+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:58:44.389+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:58:44.389+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:58:44.814+0100] {processor.py:840} INFO - DAG(s) 'ETL_with_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:58:44.830+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:58:44.830+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:58:44.848+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:58:44.848+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_with_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:58:44.874+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.494 seconds
+[2024-04-29T21:59:17.602+0100] {processor.py:161} INFO - Started process (PID=153090) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:59:17.603+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:59:17.604+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:59:17.604+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:59:18.076+0100] {processor.py:840} INFO - DAG(s) 'ETL_with_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:59:18.099+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:59:18.098+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:59:18.117+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:59:18.117+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_with_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:59:18.141+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.544 seconds
+[2024-04-29T21:59:48.756+0100] {processor.py:161} INFO - Started process (PID=153249) to work on /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:59:48.757+0100] {processor.py:830} INFO - Processing file /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py for tasks to queue
+[2024-04-29T21:59:48.759+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:59:48.759+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:59:49.168+0100] {processor.py:840} INFO - DAG(s) 'ETL_with_NASA_Asteroids_data' retrieved from /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py
+[2024-04-29T21:59:49.193+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:59:49.193+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T21:59:49.208+0100] {logging_mixin.py:188} INFO - [2024-04-29T21:59:49.207+0100] {dag.py:3954} INFO - Setting next_dagrun for ETL_with_NASA_Asteroids_data to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-04-29T21:59:49.225+0100] {processor.py:183} INFO - Processing /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py took 0.479 seconds

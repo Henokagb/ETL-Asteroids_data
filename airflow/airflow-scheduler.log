@@ -44,3 +44,196 @@
 2024-04-29 16:58:05,642 INFO - Sending the signal Signals.SIGTERM to group 65481
 2024-04-29 16:58:05,643 INFO - Sending the signal Signals.SIGTERM to process 65481 as process group is missing.
 2024-04-29 16:58:05,643 INFO - Exited execute loop
+2024-04-29 21:32:26,656 INFO - Task context logging is enabled
+2024-04-29 21:32:26,657 INFO - Loaded executor: SequentialExecutor
+2024-04-29 21:32:26,692 INFO - Starting the scheduler
+2024-04-29 21:32:26,692 INFO - Processing each file at most -1 times
+2024-04-29 21:32:26,700 INFO - Launched DagFileProcessorManager with pid: 145322
+2024-04-29 21:32:26,702 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-04-29 21:32:26,706 INFO - Configured default timezone UTC
+2024-04-29 21:36:00,271 INFO - Exiting gracefully upon receiving signal 15
+2024-04-29 21:36:01,292 INFO - Sending Signals.SIGTERM to group 145322. PIDs of all processes in the group: [145322]
+2024-04-29 21:36:01,293 INFO - Sending the signal Signals.SIGTERM to group 145322
+2024-04-29 21:36:01,590 INFO - Process psutil.Process(pid=145322, status='terminated', exitcode=0, started='21:32:26') (145322) terminated with exit code 0
+2024-04-29 21:36:01,607 INFO - Sending Signals.SIGTERM to group 145322. PIDs of all processes in the group: []
+2024-04-29 21:36:01,607 INFO - Sending the signal Signals.SIGTERM to group 145322
+2024-04-29 21:36:01,607 INFO - Sending the signal Signals.SIGTERM to process 145322 as process group is missing.
+2024-04-29 21:36:01,608 INFO - Exited execute loop
+2024-04-29 21:36:06,596 INFO - Task context logging is enabled
+2024-04-29 21:36:06,597 INFO - Loaded executor: SequentialExecutor
+2024-04-29 21:36:06,634 INFO - Starting the scheduler
+2024-04-29 21:36:06,634 INFO - Processing each file at most -1 times
+2024-04-29 21:36:06,639 INFO - Launched DagFileProcessorManager with pid: 146310
+2024-04-29 21:36:06,640 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-04-29 21:36:06,643 INFO - Configured default timezone UTC
+2024-04-29 21:37:22,441 INFO - Exiting gracefully upon receiving signal 15
+2024-04-29 21:37:22,582 INFO - Sending Signals.SIGTERM to group 146310. PIDs of all processes in the group: []
+2024-04-29 21:37:22,582 INFO - Sending the signal Signals.SIGTERM to group 146310
+2024-04-29 21:37:22,582 INFO - Sending the signal Signals.SIGTERM to process 146310 as process group is missing.
+2024-04-29 21:37:22,595 INFO - Sending Signals.SIGTERM to group 146310. PIDs of all processes in the group: []
+2024-04-29 21:37:22,596 INFO - Sending the signal Signals.SIGTERM to group 146310
+2024-04-29 21:37:22,596 INFO - Sending the signal Signals.SIGTERM to process 146310 as process group is missing.
+2024-04-29 21:37:22,596 INFO - Exited execute loop
+2024-04-29 21:37:34,456 INFO - Task context logging is enabled
+2024-04-29 21:37:34,457 INFO - Loaded executor: SequentialExecutor
+2024-04-29 21:37:34,488 INFO - Starting the scheduler
+2024-04-29 21:37:34,489 INFO - Processing each file at most -1 times
+2024-04-29 21:37:34,494 INFO - Launched DagFileProcessorManager with pid: 146945
+2024-04-29 21:37:34,496 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-04-29 21:37:34,500 INFO - Configured default timezone UTC
+2024-04-29 21:40:06,215 INFO - Marking run <DagRun ETL_NASA_Asteroids_data @ 2024-04-29 20:40:05.932476+00:00: manual__2024-04-29T20:40:05.932476+00:00, state:running, queued_at: 2024-04-29 20:40:05.975306+00:00. externally triggered: True> successful
+2024-04-29 21:40:06,216 INFO - DagRun Finished: dag_id=ETL_NASA_Asteroids_data, execution_date=2024-04-29 20:40:05.932476+00:00, run_id=manual__2024-04-29T20:40:05.932476+00:00, run_start_date=2024-04-29 20:40:06.192671+00:00, run_end_date=2024-04-29 20:40:06.216733+00:00, run_duration=0.024062, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-12 20:40:05.932476+00:00, data_interval_end=2024-04-29 20:40:05.932476+00:00, dag_hash=0e18178696c3774647b7aa8779739cba
+2024-04-29 21:41:34,572 INFO - Marking run <DagRun ETL_NASA_Asteroids_data @ 2024-04-29 20:41:33.575774+00:00: manual__2024-04-29T20:41:33.575774+00:00, state:running, queued_at: 2024-04-29 20:41:33.594793+00:00. externally triggered: True> successful
+2024-04-29 21:41:34,573 INFO - DagRun Finished: dag_id=ETL_NASA_Asteroids_data, execution_date=2024-04-29 20:41:33.575774+00:00, run_id=manual__2024-04-29T20:41:33.575774+00:00, run_start_date=2024-04-29 20:41:34.561206+00:00, run_end_date=2024-04-29 20:41:34.573216+00:00, run_duration=0.01201, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-12 20:41:33.575774+00:00, data_interval_end=2024-04-29 20:41:33.575774+00:00, dag_hash=0e18178696c3774647b7aa8779739cba
+2024-04-29 21:42:34,561 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-04-29 21:42:46,293 INFO - Marking run <DagRun ETL_NASA_Asteroids_data @ 2024-04-29 20:42:45.868085+00:00: manual__2024-04-29T20:42:45.868085+00:00, state:running, queued_at: 2024-04-29 20:42:45.894380+00:00. externally triggered: True> successful
+2024-04-29 21:42:46,294 INFO - DagRun Finished: dag_id=ETL_NASA_Asteroids_data, execution_date=2024-04-29 20:42:45.868085+00:00, run_id=manual__2024-04-29T20:42:45.868085+00:00, run_start_date=2024-04-29 20:42:46.267802+00:00, run_end_date=2024-04-29 20:42:46.294420+00:00, run_duration=0.026618, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-22 20:42:45.868085+00:00, data_interval_end=2024-04-29 20:42:45.868085+00:00, dag_hash=f7185b9b8ca6837fd43901e9a82fde00
+2024-04-29 21:43:44,848 INFO - Exiting gracefully upon receiving signal 15
+2024-04-29 21:43:45,881 INFO - Sending Signals.SIGTERM to group 146945. PIDs of all processes in the group: [146945]
+2024-04-29 21:43:45,881 INFO - Sending the signal Signals.SIGTERM to group 146945
+2024-04-29 21:43:46,296 INFO - Process psutil.Process(pid=146945, status='terminated', exitcode=0, started='21:37:34') (146945) terminated with exit code 0
+2024-04-29 21:43:46,311 INFO - Sending Signals.SIGTERM to group 146945. PIDs of all processes in the group: []
+2024-04-29 21:43:46,311 INFO - Sending the signal Signals.SIGTERM to group 146945
+2024-04-29 21:43:46,311 INFO - Sending the signal Signals.SIGTERM to process 146945 as process group is missing.
+2024-04-29 21:43:46,311 INFO - Exited execute loop
+2024-04-29 21:43:51,419 INFO - Task context logging is enabled
+2024-04-29 21:43:51,420 INFO - Loaded executor: SequentialExecutor
+2024-04-29 21:43:51,453 INFO - Starting the scheduler
+2024-04-29 21:43:51,454 INFO - Processing each file at most -1 times
+2024-04-29 21:43:51,458 INFO - Launched DagFileProcessorManager with pid: 148597
+2024-04-29 21:43:51,460 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-04-29 21:43:51,463 INFO - Configured default timezone UTC
+2024-04-29 21:44:48,477 INFO - Exiting gracefully upon receiving signal 15
+2024-04-29 21:44:48,765 INFO - Sending Signals.SIGTERM to group 148597. PIDs of all processes in the group: []
+2024-04-29 21:44:48,766 INFO - Sending the signal Signals.SIGTERM to group 148597
+2024-04-29 21:44:48,766 INFO - Sending the signal Signals.SIGTERM to process 148597 as process group is missing.
+2024-04-29 21:44:48,815 INFO - Sending Signals.SIGTERM to group 148597. PIDs of all processes in the group: []
+2024-04-29 21:44:48,816 INFO - Sending the signal Signals.SIGTERM to group 148597
+2024-04-29 21:44:48,816 INFO - Sending the signal Signals.SIGTERM to process 148597 as process group is missing.
+2024-04-29 21:44:48,817 INFO - Exited execute loop
+2024-04-29 21:45:16,951 INFO - Task context logging is enabled
+2024-04-29 21:45:16,952 INFO - Loaded executor: SequentialExecutor
+2024-04-29 21:45:16,983 INFO - Starting the scheduler
+2024-04-29 21:45:16,984 INFO - Processing each file at most -1 times
+2024-04-29 21:45:16,988 INFO - Launched DagFileProcessorManager with pid: 149219
+2024-04-29 21:45:16,990 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-04-29 21:45:16,993 INFO - Configured default timezone UTC
+2024-04-29 21:45:35,478 INFO - 1 tasks up for execution:
+	<TaskInstance: ETL_NASA_Asteroids_data.Extract_data_from_API manual__2024-04-29T20:45:34.570378+00:00 [scheduled]>
+2024-04-29 21:45:35,479 INFO - DAG ETL_NASA_Asteroids_data has 0/16 running and queued tasks
+2024-04-29 21:45:35,480 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ETL_NASA_Asteroids_data.Extract_data_from_API manual__2024-04-29T20:45:34.570378+00:00 [scheduled]>
+2024-04-29 21:45:35,489 INFO - Sending TaskInstanceKey(dag_id='ETL_NASA_Asteroids_data', task_id='Extract_data_from_API', run_id='manual__2024-04-29T20:45:34.570378+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2024-04-29 21:45:35,490 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ETL_NASA_Asteroids_data', 'Extract_data_from_API', 'manual__2024-04-29T20:45:34.570378+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:45:35,496 INFO - Executing command: ['airflow', 'tasks', 'run', 'ETL_NASA_Asteroids_data', 'Extract_data_from_API', 'manual__2024-04-29T20:45:34.570378+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:45:42,377 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ETL_NASA_Asteroids_data', task_id='Extract_data_from_API', run_id='manual__2024-04-29T20:45:34.570378+00:00', try_number=1, map_index=-1)
+2024-04-29 21:45:42,387 INFO - TaskInstance Finished: dag_id=ETL_NASA_Asteroids_data, task_id=Extract_data_from_API, run_id=manual__2024-04-29T20:45:34.570378+00:00, map_index=-1, run_start_date=2024-04-29 20:45:37.575373+00:00, run_end_date=2024-04-29 20:45:41.976862+00:00, run_duration=4.401489, state=success, executor_state=success, try_number=1, max_tries=3, job_id=9, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-04-29 20:45:35.484595+00:00, queued_by_job_id=8, pid=149320
+2024-04-29 21:45:42,443 INFO - 1 tasks up for execution:
+	<TaskInstance: ETL_NASA_Asteroids_data.Transform_and_clean_data manual__2024-04-29T20:45:34.570378+00:00 [scheduled]>
+2024-04-29 21:45:42,443 INFO - DAG ETL_NASA_Asteroids_data has 0/16 running and queued tasks
+2024-04-29 21:45:42,443 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ETL_NASA_Asteroids_data.Transform_and_clean_data manual__2024-04-29T20:45:34.570378+00:00 [scheduled]>
+2024-04-29 21:45:42,445 INFO - Sending TaskInstanceKey(dag_id='ETL_NASA_Asteroids_data', task_id='Transform_and_clean_data', run_id='manual__2024-04-29T20:45:34.570378+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2024-04-29 21:45:42,445 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ETL_NASA_Asteroids_data', 'Transform_and_clean_data', 'manual__2024-04-29T20:45:34.570378+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:45:42,449 INFO - Executing command: ['airflow', 'tasks', 'run', 'ETL_NASA_Asteroids_data', 'Transform_and_clean_data', 'manual__2024-04-29T20:45:34.570378+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:45:45,629 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ETL_NASA_Asteroids_data', task_id='Transform_and_clean_data', run_id='manual__2024-04-29T20:45:34.570378+00:00', try_number=1, map_index=-1)
+2024-04-29 21:45:45,636 INFO - TaskInstance Finished: dag_id=ETL_NASA_Asteroids_data, task_id=Transform_and_clean_data, run_id=manual__2024-04-29T20:45:34.570378+00:00, map_index=-1, run_start_date=2024-04-29 20:45:44.866585+00:00, run_end_date=2024-04-29 20:45:45.243738+00:00, run_duration=0.377153, state=success, executor_state=success, try_number=1, max_tries=3, job_id=10, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-04-29 20:45:42.444244+00:00, queued_by_job_id=8, pid=149373
+2024-04-29 21:45:45,688 INFO - 1 tasks up for execution:
+	<TaskInstance: ETL_NASA_Asteroids_data.Load_into_db manual__2024-04-29T20:45:34.570378+00:00 [scheduled]>
+2024-04-29 21:45:45,688 INFO - DAG ETL_NASA_Asteroids_data has 0/16 running and queued tasks
+2024-04-29 21:45:45,688 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ETL_NASA_Asteroids_data.Load_into_db manual__2024-04-29T20:45:34.570378+00:00 [scheduled]>
+2024-04-29 21:45:45,690 INFO - Sending TaskInstanceKey(dag_id='ETL_NASA_Asteroids_data', task_id='Load_into_db', run_id='manual__2024-04-29T20:45:34.570378+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-04-29 21:45:45,690 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ETL_NASA_Asteroids_data', 'Load_into_db', 'manual__2024-04-29T20:45:34.570378+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:45:45,694 INFO - Executing command: ['airflow', 'tasks', 'run', 'ETL_NASA_Asteroids_data', 'Load_into_db', 'manual__2024-04-29T20:45:34.570378+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:45:47,943 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ETL_NASA_Asteroids_data', task_id='Load_into_db', run_id='manual__2024-04-29T20:45:34.570378+00:00', try_number=1, map_index=-1)
+2024-04-29 21:45:47,951 INFO - TaskInstance Finished: dag_id=ETL_NASA_Asteroids_data, task_id=Load_into_db, run_id=manual__2024-04-29T20:45:34.570378+00:00, map_index=-1, run_start_date=2024-04-29 20:45:47.400919+00:00, run_end_date=2024-04-29 20:45:47.559099+00:00, run_duration=0.15818, state=up_for_retry, executor_state=success, try_number=1, max_tries=3, job_id=11, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2024-04-29 20:45:45.689472+00:00, queued_by_job_id=8, pid=149387
+2024-04-29 21:46:48,000 INFO - 1 tasks up for execution:
+	<TaskInstance: ETL_NASA_Asteroids_data.Load_into_db manual__2024-04-29T20:45:34.570378+00:00 [scheduled]>
+2024-04-29 21:46:48,001 INFO - DAG ETL_NASA_Asteroids_data has 0/16 running and queued tasks
+2024-04-29 21:46:48,001 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ETL_NASA_Asteroids_data.Load_into_db manual__2024-04-29T20:45:34.570378+00:00 [scheduled]>
+2024-04-29 21:46:48,005 INFO - Sending TaskInstanceKey(dag_id='ETL_NASA_Asteroids_data', task_id='Load_into_db', run_id='manual__2024-04-29T20:45:34.570378+00:00', try_number=2, map_index=-1) to executor with priority 1 and queue default
+2024-04-29 21:46:48,005 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ETL_NASA_Asteroids_data', 'Load_into_db', 'manual__2024-04-29T20:45:34.570378+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:46:48,009 INFO - Executing command: ['airflow', 'tasks', 'run', 'ETL_NASA_Asteroids_data', 'Load_into_db', 'manual__2024-04-29T20:45:34.570378+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:46:50,984 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ETL_NASA_Asteroids_data', task_id='Load_into_db', run_id='manual__2024-04-29T20:45:34.570378+00:00', try_number=2, map_index=-1)
+2024-04-29 21:46:50,991 INFO - TaskInstance Finished: dag_id=ETL_NASA_Asteroids_data, task_id=Load_into_db, run_id=manual__2024-04-29T20:45:34.570378+00:00, map_index=-1, run_start_date=2024-04-29 20:46:50.366621+00:00, run_end_date=2024-04-29 20:46:50.578364+00:00, run_duration=0.211743, state=up_for_retry, executor_state=success, try_number=2, max_tries=3, job_id=12, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2024-04-29 20:46:48.002807+00:00, queued_by_job_id=8, pid=149618
+2024-04-29 21:47:50,890 INFO - 1 tasks up for execution:
+	<TaskInstance: ETL_NASA_Asteroids_data.Load_into_db manual__2024-04-29T20:45:34.570378+00:00 [scheduled]>
+2024-04-29 21:47:50,891 INFO - DAG ETL_NASA_Asteroids_data has 0/16 running and queued tasks
+2024-04-29 21:47:50,891 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ETL_NASA_Asteroids_data.Load_into_db manual__2024-04-29T20:45:34.570378+00:00 [scheduled]>
+2024-04-29 21:47:50,892 INFO - Sending TaskInstanceKey(dag_id='ETL_NASA_Asteroids_data', task_id='Load_into_db', run_id='manual__2024-04-29T20:45:34.570378+00:00', try_number=3, map_index=-1) to executor with priority 1 and queue default
+2024-04-29 21:47:50,893 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ETL_NASA_Asteroids_data', 'Load_into_db', 'manual__2024-04-29T20:45:34.570378+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:47:50,896 INFO - Executing command: ['airflow', 'tasks', 'run', 'ETL_NASA_Asteroids_data', 'Load_into_db', 'manual__2024-04-29T20:45:34.570378+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:47:55,037 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ETL_NASA_Asteroids_data', task_id='Load_into_db', run_id='manual__2024-04-29T20:45:34.570378+00:00', try_number=3, map_index=-1)
+2024-04-29 21:47:55,044 INFO - TaskInstance Finished: dag_id=ETL_NASA_Asteroids_data, task_id=Load_into_db, run_id=manual__2024-04-29T20:45:34.570378+00:00, map_index=-1, run_start_date=2024-04-29 20:47:54.502805+00:00, run_end_date=2024-04-29 20:47:54.663528+00:00, run_duration=0.160723, state=up_for_retry, executor_state=success, try_number=3, max_tries=3, job_id=13, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2024-04-29 20:47:50.891871+00:00, queued_by_job_id=8, pid=149950
+2024-04-29 21:48:55,006 INFO - 1 tasks up for execution:
+	<TaskInstance: ETL_NASA_Asteroids_data.Load_into_db manual__2024-04-29T20:45:34.570378+00:00 [scheduled]>
+2024-04-29 21:48:55,007 INFO - DAG ETL_NASA_Asteroids_data has 0/16 running and queued tasks
+2024-04-29 21:48:55,007 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ETL_NASA_Asteroids_data.Load_into_db manual__2024-04-29T20:45:34.570378+00:00 [scheduled]>
+2024-04-29 21:48:55,008 INFO - Sending TaskInstanceKey(dag_id='ETL_NASA_Asteroids_data', task_id='Load_into_db', run_id='manual__2024-04-29T20:45:34.570378+00:00', try_number=4, map_index=-1) to executor with priority 1 and queue default
+2024-04-29 21:48:55,009 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ETL_NASA_Asteroids_data', 'Load_into_db', 'manual__2024-04-29T20:45:34.570378+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:48:55,012 INFO - Executing command: ['airflow', 'tasks', 'run', 'ETL_NASA_Asteroids_data', 'Load_into_db', 'manual__2024-04-29T20:45:34.570378+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:48:58,645 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ETL_NASA_Asteroids_data', task_id='Load_into_db', run_id='manual__2024-04-29T20:45:34.570378+00:00', try_number=4, map_index=-1)
+2024-04-29 21:48:58,652 INFO - TaskInstance Finished: dag_id=ETL_NASA_Asteroids_data, task_id=Load_into_db, run_id=manual__2024-04-29T20:45:34.570378+00:00, map_index=-1, run_start_date=2024-04-29 20:48:57.980317+00:00, run_end_date=2024-04-29 20:48:58.139430+00:00, run_duration=0.159113, state=failed, executor_state=success, try_number=4, max_tries=3, job_id=14, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2024-04-29 20:48:55.007976+00:00, queued_by_job_id=8, pid=150190
+2024-04-29 21:48:59,328 ERROR - Marking run <DagRun ETL_NASA_Asteroids_data @ 2024-04-29 20:45:34.570378+00:00: manual__2024-04-29T20:45:34.570378+00:00, state:running, queued_at: 2024-04-29 20:45:34.603461+00:00. externally triggered: True> failed
+2024-04-29 21:48:59,328 INFO - DagRun Finished: dag_id=ETL_NASA_Asteroids_data, execution_date=2024-04-29 20:45:34.570378+00:00, run_id=manual__2024-04-29T20:45:34.570378+00:00, run_start_date=2024-04-29 20:45:35.332292+00:00, run_end_date=2024-04-29 20:48:59.328864+00:00, run_duration=203.996572, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-04-22 20:45:34.570378+00:00, data_interval_end=2024-04-29 20:45:34.570378+00:00, dag_hash=a26a999909b486aaa5253b684e7f62ca
+2024-04-29 21:50:17,048 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-04-29 21:55:22,384 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-04-29 21:58:33,948 INFO - Exiting gracefully upon receiving signal 15
+2024-04-29 21:58:34,966 INFO - Sending Signals.SIGTERM to group 149219. PIDs of all processes in the group: [149219]
+2024-04-29 21:58:34,967 INFO - Sending the signal Signals.SIGTERM to group 149219
+2024-04-29 21:58:35,261 INFO - Process psutil.Process(pid=149219, status='terminated', exitcode=0, started='21:45:16') (149219) terminated with exit code 0
+2024-04-29 21:58:35,274 INFO - Sending Signals.SIGTERM to group 149219. PIDs of all processes in the group: []
+2024-04-29 21:58:35,274 INFO - Sending the signal Signals.SIGTERM to group 149219
+2024-04-29 21:58:35,275 INFO - Sending the signal Signals.SIGTERM to process 149219 as process group is missing.
+2024-04-29 21:58:35,275 INFO - Exited execute loop
+2024-04-29 21:58:44,237 INFO - Task context logging is enabled
+2024-04-29 21:58:44,238 INFO - Loaded executor: SequentialExecutor
+2024-04-29 21:58:44,277 INFO - Starting the scheduler
+2024-04-29 21:58:44,277 INFO - Processing each file at most -1 times
+2024-04-29 21:58:44,282 INFO - Launched DagFileProcessorManager with pid: 152945
+2024-04-29 21:58:44,284 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-04-29 21:58:44,286 INFO - Configured default timezone UTC
+2024-04-29 21:59:11,756 INFO - 1 tasks up for execution:
+	<TaskInstance: ETL_with_NASA_Asteroids_data.Extract_data_from_API manual__2024-04-29T20:59:10.642377+00:00 [scheduled]>
+2024-04-29 21:59:11,756 INFO - DAG ETL_with_NASA_Asteroids_data has 0/16 running and queued tasks
+2024-04-29 21:59:11,756 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ETL_with_NASA_Asteroids_data.Extract_data_from_API manual__2024-04-29T20:59:10.642377+00:00 [scheduled]>
+2024-04-29 21:59:11,760 INFO - Sending TaskInstanceKey(dag_id='ETL_with_NASA_Asteroids_data', task_id='Extract_data_from_API', run_id='manual__2024-04-29T20:59:10.642377+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2024-04-29 21:59:11,760 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ETL_with_NASA_Asteroids_data', 'Extract_data_from_API', 'manual__2024-04-29T20:59:10.642377+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:59:11,765 INFO - Executing command: ['airflow', 'tasks', 'run', 'ETL_with_NASA_Asteroids_data', 'Extract_data_from_API', 'manual__2024-04-29T20:59:10.642377+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:59:17,538 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ETL_with_NASA_Asteroids_data', task_id='Extract_data_from_API', run_id='manual__2024-04-29T20:59:10.642377+00:00', try_number=1, map_index=-1)
+2024-04-29 21:59:17,549 INFO - TaskInstance Finished: dag_id=ETL_with_NASA_Asteroids_data, task_id=Extract_data_from_API, run_id=manual__2024-04-29T20:59:10.642377+00:00, map_index=-1, run_start_date=2024-04-29 20:59:13.871998+00:00, run_end_date=2024-04-29 20:59:17.079896+00:00, run_duration=3.207898, state=success, executor_state=success, try_number=1, max_tries=1, job_id=10, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-04-29 20:59:11.757611+00:00, queued_by_job_id=9, pid=153073
+2024-04-29 21:59:18,245 INFO - 1 tasks up for execution:
+	<TaskInstance: ETL_with_NASA_Asteroids_data.Transform_and_clean_data manual__2024-04-29T20:59:10.642377+00:00 [scheduled]>
+2024-04-29 21:59:18,246 INFO - DAG ETL_with_NASA_Asteroids_data has 0/16 running and queued tasks
+2024-04-29 21:59:18,246 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ETL_with_NASA_Asteroids_data.Transform_and_clean_data manual__2024-04-29T20:59:10.642377+00:00 [scheduled]>
+2024-04-29 21:59:18,248 INFO - Sending TaskInstanceKey(dag_id='ETL_with_NASA_Asteroids_data', task_id='Transform_and_clean_data', run_id='manual__2024-04-29T20:59:10.642377+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2024-04-29 21:59:18,248 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ETL_with_NASA_Asteroids_data', 'Transform_and_clean_data', 'manual__2024-04-29T20:59:10.642377+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:59:18,252 INFO - Executing command: ['airflow', 'tasks', 'run', 'ETL_with_NASA_Asteroids_data', 'Transform_and_clean_data', 'manual__2024-04-29T20:59:10.642377+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:59:20,999 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ETL_with_NASA_Asteroids_data', task_id='Transform_and_clean_data', run_id='manual__2024-04-29T20:59:10.642377+00:00', try_number=1, map_index=-1)
+2024-04-29 21:59:21,007 INFO - TaskInstance Finished: dag_id=ETL_with_NASA_Asteroids_data, task_id=Transform_and_clean_data, run_id=manual__2024-04-29T20:59:10.642377+00:00, map_index=-1, run_start_date=2024-04-29 20:59:20.212021+00:00, run_end_date=2024-04-29 20:59:20.622140+00:00, run_duration=0.410119, state=success, executor_state=success, try_number=1, max_tries=1, job_id=11, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-04-29 20:59:18.247502+00:00, queued_by_job_id=9, pid=153105
+2024-04-29 21:59:21,060 INFO - 1 tasks up for execution:
+	<TaskInstance: ETL_with_NASA_Asteroids_data.Load_into_db manual__2024-04-29T20:59:10.642377+00:00 [scheduled]>
+2024-04-29 21:59:21,061 INFO - DAG ETL_with_NASA_Asteroids_data has 0/16 running and queued tasks
+2024-04-29 21:59:21,061 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ETL_with_NASA_Asteroids_data.Load_into_db manual__2024-04-29T20:59:10.642377+00:00 [scheduled]>
+2024-04-29 21:59:21,062 INFO - Sending TaskInstanceKey(dag_id='ETL_with_NASA_Asteroids_data', task_id='Load_into_db', run_id='manual__2024-04-29T20:59:10.642377+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-04-29 21:59:21,063 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ETL_with_NASA_Asteroids_data', 'Load_into_db', 'manual__2024-04-29T20:59:10.642377+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:59:21,069 INFO - Executing command: ['airflow', 'tasks', 'run', 'ETL_with_NASA_Asteroids_data', 'Load_into_db', 'manual__2024-04-29T20:59:10.642377+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py']
+2024-04-29 21:59:23,547 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ETL_with_NASA_Asteroids_data', task_id='Load_into_db', run_id='manual__2024-04-29T20:59:10.642377+00:00', try_number=1, map_index=-1)
+2024-04-29 21:59:23,553 INFO - TaskInstance Finished: dag_id=ETL_with_NASA_Asteroids_data, task_id=Load_into_db, run_id=manual__2024-04-29T20:59:10.642377+00:00, map_index=-1, run_start_date=2024-04-29 20:59:22.892690+00:00, run_end_date=2024-04-29 20:59:23.122408+00:00, run_duration=0.229718, state=success, executor_state=success, try_number=1, max_tries=1, job_id=12, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2024-04-29 20:59:21.061847+00:00, queued_by_job_id=9, pid=153118
+2024-04-29 21:59:23,598 INFO - Marking run <DagRun ETL_with_NASA_Asteroids_data @ 2024-04-29 20:59:10.642377+00:00: manual__2024-04-29T20:59:10.642377+00:00, state:running, queued_at: 2024-04-29 20:59:10.676025+00:00. externally triggered: True> successful
+2024-04-29 21:59:23,599 INFO - DagRun Finished: dag_id=ETL_with_NASA_Asteroids_data, execution_date=2024-04-29 20:59:10.642377+00:00, run_id=manual__2024-04-29T20:59:10.642377+00:00, run_start_date=2024-04-29 20:59:11.680137+00:00, run_end_date=2024-04-29 20:59:23.599177+00:00, run_duration=11.91904, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-22 20:59:10.642377+00:00, data_interval_end=2024-04-29 20:59:10.642377+00:00, dag_hash=e8548d8910942cd168dbeeaf021bfc57
+2024-04-29 22:00:08,953 INFO - Exiting gracefully upon receiving signal 15
+2024-04-29 22:00:09,969 INFO - Sending Signals.SIGTERM to group 152945. PIDs of all processes in the group: [152945]
+2024-04-29 22:00:09,969 INFO - Sending the signal Signals.SIGTERM to group 152945
+2024-04-29 22:00:10,222 INFO - Process psutil.Process(pid=152945, status='terminated', exitcode=0, started='21:58:44') (152945) terminated with exit code 0
+2024-04-29 22:00:10,239 INFO - Sending Signals.SIGTERM to group 152945. PIDs of all processes in the group: []
+2024-04-29 22:00:10,239 INFO - Sending the signal Signals.SIGTERM to group 152945
+2024-04-29 22:00:10,240 INFO - Sending the signal Signals.SIGTERM to process 152945 as process group is missing.
+2024-04-29 22:00:10,240 INFO - Exited execute loop

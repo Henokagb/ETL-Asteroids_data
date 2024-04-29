@@ -134,3 +134,469 @@ File Path                                                                       
 [2024-04-29T16:56:59.466+0100] {manager.py:737} INFO - Searching for files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
 [2024-04-29T16:56:59.467+0100] {manager.py:740} INFO - There are 0 files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
 [2024-04-29T16:58:05.498+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-04-29T21:32:26.738+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-04-29T21:32:26.739+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-04-29T21:32:26.740+0100] {manager.py:472} INFO - Checking for new files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags every 300 seconds
+[2024-04-29T21:32:26.740+0100] {manager.py:737} INFO - Searching for files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:32:26.741+0100] {manager.py:740} INFO - There are 1 files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:32:27.519+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           0           1  0.71s           2024-04-29T20:32:27
+================================================================================
+[2024-04-29T21:32:58.548+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           0           1  0.51s           2024-04-29T20:32:58
+================================================================================
+[2024-04-29T21:33:29.909+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           0           1  0.51s           2024-04-29T20:33:29
+================================================================================
+[2024-04-29T21:34:00.249+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           0           1  2.72s           2024-04-29T20:33:54
+================================================================================
+[2024-04-29T21:34:31.382+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           0           1  1.91s           2024-04-29T20:34:31
+================================================================================
+[2024-04-29T21:35:03.917+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           0           1  2.21s           2024-04-29T20:35:03
+================================================================================
+[2024-04-29T21:35:36.168+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           0           1  1.91s           2024-04-29T20:35:36
+================================================================================
+[2024-04-29T21:36:01.293+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-04-29T21:36:06.663+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-04-29T21:36:06.663+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-04-29T21:36:06.664+0100] {manager.py:472} INFO - Checking for new files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags every 300 seconds
+[2024-04-29T21:36:06.664+0100] {manager.py:737} INFO - Searching for files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:36:06.665+0100] {manager.py:740} INFO - There are 1 files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:36:07.314+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.60s           2024-04-29T20:36:07
+================================================================================
+[2024-04-29T21:36:38.576+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.61s           2024-04-29T20:36:38
+================================================================================
+[2024-04-29T21:37:09.856+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.50s           2024-04-29T20:37:09
+================================================================================
+[2024-04-29T21:37:22.439+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-04-29T21:37:34.536+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-04-29T21:37:34.536+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-04-29T21:37:34.537+0100] {manager.py:472} INFO - Checking for new files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags every 300 seconds
+[2024-04-29T21:37:34.537+0100] {manager.py:737} INFO - Searching for files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:37:34.540+0100] {manager.py:740} INFO - There are 1 files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:37:35.201+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.61s           2024-04-29T20:37:35
+================================================================================
+[2024-04-29T21:38:06.480+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.61s           2024-04-29T20:38:06
+================================================================================
+[2024-04-29T21:38:37.854+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.60s           2024-04-29T20:38:37
+================================================================================
+[2024-04-29T21:39:09.207+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.50s           2024-04-29T20:39:09
+================================================================================
+[2024-04-29T21:39:40.544+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.51s           2024-04-29T20:39:40
+================================================================================
+[2024-04-29T21:40:11.966+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.71s           2024-04-29T20:40:11
+================================================================================
+[2024-04-29T21:40:43.093+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.81s           2024-04-29T20:40:43
+================================================================================
+[2024-04-29T21:41:14.328+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.90s           2024-04-29T20:41:14
+================================================================================
+[2024-04-29T21:41:45.199+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.50s           2024-04-29T20:41:45
+================================================================================
+[2024-04-29T21:42:16.018+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.51s           2024-04-29T20:42:16
+================================================================================
+[2024-04-29T21:42:34.718+0100] {manager.py:737} INFO - Searching for files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:42:34.721+0100] {manager.py:740} INFO - There are 1 files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:42:46.185+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.60s           2024-04-29T20:42:43
+================================================================================
+[2024-04-29T21:43:16.281+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.81s           2024-04-29T20:43:15
+================================================================================
+[2024-04-29T21:43:45.882+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-04-29T21:43:51.493+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-04-29T21:43:51.494+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-04-29T21:43:51.494+0100] {manager.py:472} INFO - Checking for new files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags every 300 seconds
+[2024-04-29T21:43:51.494+0100] {manager.py:737} INFO - Searching for files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:43:51.496+0100] {manager.py:740} INFO - There are 1 files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:43:52.269+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.71s           2024-04-29T20:43:52
+================================================================================
+[2024-04-29T21:44:23.225+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.51s           2024-04-29T20:44:23
+================================================================================
+[2024-04-29T21:44:48.478+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-04-29T21:45:17.030+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-04-29T21:45:17.030+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-04-29T21:45:17.031+0100] {manager.py:472} INFO - Checking for new files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags every 300 seconds
+[2024-04-29T21:45:17.031+0100] {manager.py:737} INFO - Searching for files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:45:17.033+0100] {manager.py:740} INFO - There are 1 files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:45:17.600+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.50s           2024-04-29T20:45:17
+================================================================================
+[2024-04-29T21:45:48.586+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.60s           2024-04-29T20:45:48
+================================================================================
+[2024-04-29T21:46:19.913+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.51s           2024-04-29T20:46:19
+================================================================================
+[2024-04-29T21:46:51.631+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.60s           2024-04-29T20:46:51
+================================================================================
+[2024-04-29T21:47:23.173+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.81s           2024-04-29T20:47:23
+================================================================================
+[2024-04-29T21:47:55.584+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.50s           2024-04-29T20:47:55
+================================================================================
+[2024-04-29T21:48:26.948+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.51s           2024-04-29T20:48:26
+================================================================================
+[2024-04-29T21:48:59.299+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.60s           2024-04-29T20:48:59
+================================================================================
+[2024-04-29T21:49:30.032+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.71s           2024-04-29T20:49:03
+================================================================================
+[2024-04-29T21:50:00.659+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  1.11s           2024-04-29T20:49:34
+================================================================================
+[2024-04-29T21:50:17.199+0100] {manager.py:737} INFO - Searching for files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:50:17.202+0100] {manager.py:740} INFO - There are 1 files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:50:31.482+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           0           1  0.50s           2024-04-29T20:50:14
+================================================================================
+[2024-04-29T21:51:01.826+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           0           1  0.61s           2024-04-29T20:50:45
+================================================================================
+[2024-04-29T21:51:32.166+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.60s           2024-04-29T20:51:17
+================================================================================
+[2024-04-29T21:52:02.514+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.51s           2024-04-29T20:51:48
+================================================================================
+[2024-04-29T21:52:33.569+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.71s           2024-04-29T20:52:12
+================================================================================
+[2024-04-29T21:53:03.963+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.50s           2024-04-29T20:53:01
+================================================================================
+[2024-04-29T21:53:34.272+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.50s           2024-04-29T20:53:28
+================================================================================
+[2024-04-29T21:54:04.536+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           0           0  0.50s           2024-04-29T20:53:53
+================================================================================
+[2024-04-29T21:54:34.952+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           0           0  0.71s           2024-04-29T20:54:26
+================================================================================
+[2024-04-29T21:55:05.320+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           0           1  0.40s           2024-04-29T20:54:57
+================================================================================
+[2024-04-29T21:55:26.772+0100] {manager.py:737} INFO - Searching for files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:55:26.774+0100] {manager.py:740} INFO - There are 1 files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:55:35.368+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           0           0  5.12s           2024-04-29T20:55:22
+================================================================================
+[2024-04-29T21:56:06.661+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           0           1  0.31s           2024-04-29T20:56:06
+================================================================================
+[2024-04-29T21:56:37.317+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  2.51s           2024-04-29T20:56:14
+================================================================================
+[2024-04-29T21:57:07.542+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  3.41s           2024-04-29T20:56:47
+================================================================================
+[2024-04-29T21:57:37.917+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  2.01s           2024-04-29T20:57:19
+================================================================================
+[2024-04-29T21:58:08.300+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.41s           2024-04-29T20:58:02
+================================================================================
+[2024-04-29T21:58:34.967+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-04-29T21:58:44.316+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-04-29T21:58:44.317+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-04-29T21:58:44.317+0100] {manager.py:472} INFO - Checking for new files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags every 300 seconds
+[2024-04-29T21:58:44.317+0100] {manager.py:737} INFO - Searching for files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:58:44.318+0100] {manager.py:740} INFO - There are 1 files in /home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags
+[2024-04-29T21:58:44.884+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.51s           2024-04-29T20:58:44
+================================================================================
+[2024-04-29T21:59:18.199+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.61s           2024-04-29T20:59:18
+================================================================================
+[2024-04-29T21:59:49.245+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/h3n0k/Documents/Repositories/Perso/ETL-Asteroids_data/airflow/dags/etl_dag.py                           1           0  0.51s           2024-04-29T20:59:49
+================================================================================
+[2024-04-29T22:00:09.970+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
