@@ -26,7 +26,7 @@ source ./venv/bin/activate
 You can find the installation on the [official Airflow website](https://airflow.apache.org/docs/apache-airflow/stable/start.html)
 
 
-## Set several environment variables
+## Set environment variables
 
 ```bash
 export AIRFLOW_HOME=/path/to/your/airflow/home
@@ -51,8 +51,8 @@ airflow scheduler -D
 
 ## Airflow UI
 
-![view the dag](assets/screenshot2.png)
+![view the dag](./assets/screenshot2.png)
 
-![run the dag](assets/screenshot3.png)
+![run the dag](./assets/screenshot3.png)
 
 
