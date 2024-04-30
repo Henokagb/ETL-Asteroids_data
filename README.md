@@ -51,8 +51,8 @@ airflow scheduler -D
 
 ## Airflow UI
 
-![view the dag](./assets/screenshot2.png)
+![view the dag](assets/screenshot2.png)
 
-![run the dag](./assets/screenshot3.png)
+![run the dag](assets/screenshot3.png)
 
 
